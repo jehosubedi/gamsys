@@ -14,7 +14,7 @@ app_license = "mit"
 add_to_apps_screen = [
 	{
 		"name": "graduate_attributes",
-		"logo": "/assets/graduate_attributes/logo.png",
+		"logo": "/assets/graduate_attributes/icons/ga.png",
 		"title": "APC GA",
 		"route": "/graduate_attributes",
 		# "has_permission": "graduate_attributes.api.permission.has_app_permission"
