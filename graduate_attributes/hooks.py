@@ -11,15 +11,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "graduate_attributes",
-# 		"logo": "/assets/graduate_attributes/logo.png",
-# 		"title": "APC GA",
-# 		"route": "/graduate_attributes",
-# 		"has_permission": "graduate_attributes.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "graduate_attributes",
+		"logo": "/assets/graduate_attributes/logo.png",
+		"title": "APC GA",
+		"route": "/graduate_attributes",
+		# "has_permission": "graduate_attributes.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
