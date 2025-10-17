@@ -1,0 +1,176 @@
+{
+ "actions": [],
+ "autoname": "format:{student_id}-{sectionblock}",
+ "creation": "2025-10-17 08:45:17.702681",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_info_section",
+  "full_name",
+  "student_id",
+  "column_break_axbw",
+  "sectionblock",
+  "student_email",
+  "section_break_yksm",
+  "solution_provider",
+  "committed",
+  "it_enabled",
+  "customer_oriented",
+  "team_player",
+  "good_communicator",
+  "ethical",
+  "contributor_to_nation_building",
+  "lifelong_learner",
+  "total_score"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "placeholder": "Input Student Name"
+  },
+  {
+   "fieldname": "student_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student ID",
+   "placeholder": "Input Student ID"
+  },
+  {
+   "fieldname": "sectionblock",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Section/Block",
+   "placeholder": "Input Your Block"
+  },
+  {
+   "fieldname": "student_email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Student Email",
+   "placeholder": "Input Student Email"
+  },
+  {
+   "fieldname": "column_break_axbw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_yksm",
+   "fieldtype": "Section Break",
+   "label": "Self Assessment Questionnaires "
+  },
+  {
+   "bold": 1,
+   "description": "How effectively do you innovate, proactively strategize, and create impactful solutions with emerging technologies, challenging the status quo for global organizational goals?",
+   "fieldname": "solution_provider",
+   "fieldtype": "Select",
+   "label": "Solution Provider",
+   "options": "Select Option\n5 Expert - Drives transformative, industry-innovating solutions; leads emerging tech adoption; strong entrepreneurial initiative.\n4 Master - Crafts innovative, proactive strategies for complex problems; integrates cutting-edge tech globally with deep IT knowledge.\n3 Proficient - Develops impactful solutions with emerging tech; aligns to goals; applies IT knowledge for structured outcomes.\n2 Basic - Identifies problems, applies conventional solutions; needs guidance with new tech; relies on fundamental IT concepts.\n1 Novice - Struggles to identify problems; lacks initiative; relies on existing solutions due to minimal IT knowledge."
+  },
+  {
+   "bold": 1,
+   "description": "Which of the following best describes your ability to personify reliability, unwavering dedication to responsibilities, and resiliency to overcome unexpected challenges?",
+   "fieldname": "committed",
+   "fieldtype": "Select",
+   "label": "Committed",
+   "options": "Select Option\n5 Expert - Role model of commitment; exceptional reliability and perseverance; inspires others with dedication and resilience.\n4 Master - Consistently reliable and proactive; overcomes challenges with a problem-solving mindset; dedicated in high-pressure situations.\n3 Proficient - Demonstrates responsibility; meets deadlines; manages tasks independently; adapts with some resilience and steady dedication.\n2 Basic - Completes tasks with supervision; may need reminders; seeks assistance rather than taking initiative.\n1 Novice - Frequently misses deadlines and struggles; minimal responsibility; gives up easily when faced with challenges."
+  },
+  {
+   "bold": 1,
+   "description": "How well do you lead the way in using new technologies to achieve digital inclusivity?",
+   "fieldname": "it_enabled",
+   "fieldtype": "Select",
+   "label": "IT Enabled",
+   "options": "Select Option\n5 Expert - Leads and innovates with emerging tech to drive systemic digital inclusivity; develops pioneering strategies.\n4 Master - Actively integrates emerging tech for inclusive digital solutions; advocates for accessibility in transformation.\n3 Proficient - Applies emerging tech effectively; considers inclusivity; takes initiative to learn tools but needs implementation support.\n2 Basic - Basic knowledge of emerging tech; uses standard IT tools with guidance; minimal engagement.\n1 Novice - Limited awareness of emerging tech; struggles with basic IT tools; little to no initiative in exploring solutions."
+  },
+  {
+   "bold": 1,
+   "description": "Which of the following best describes your ability to demonstrate leadership to inspire the achievement of team goals with open collaboration and respect for new ideas?",
+   "fieldname": "team_player",
+   "fieldtype": "Select",
+   "label": "Team Player",
+   "options": "Select Option\n5 Expert - Leads teams strategically; fosters inclusive communication; drives high-impact IT projects through collaboration.\n4 Master - Initiates and coordinates tasks; facilitates discussions; integrates ideas; constructively resolves conflicts.\n3 Proficient - Actively contributes; collaborates, listens to perspectives, shares ideas; supports objectives effectively.\n2 Basic - Participates; focuses on individual tasks; requires prompts; relies on guidance for coordination.\n1 Novice - Struggles with collaboration; works in isolation; disregards team goals; minimally contributes."
+  },
+  {
+   "bold": 1,
+   "description": "How effectively do you show respect for diversity and practice empathy (malasakit) to enhance customer cultural experiences?",
+   "fieldname": "customer_oriented",
+   "fieldtype": "Select",
+   "label": "Customer Oriented",
+   "options": "Select Option\n5 Expert - Champions strategies integrating cultural sensitivity; leads malasakit; designs user-centric solutions optimizing experience.\n4 Master - Anticipates customer needs; ensures a culturally inclusive experience; advocates for empathetic service.\n3 Proficient - Responds to needs with sensitivity; aware of diversity; applies malasakit and usability to improve experience.\n2 Basic - Basic respect for needs but lacks consistent empathy; requires guidance in diverse interactions.\n1 Novice - Minimal awareness of needs, diversity, or UX; responses to concerns are often indifferent or dismissive."
+  },
+  {
+   "bold": 1,
+   "description": "Which of the following statements best describes your ability to express ideas in an organized manner with clarity, listen respectfully to diverse audience needs, and lead to meaningful dialogue?",
+   "fieldname": "good_communicator",
+   "fieldtype": "Select",
+   "label": "Good Communicator",
+   "options": "Select Option\n5 Expert - Excels in clear, persuasive, impactful communication; leads diverse discussions; creates tailored reports.\n4 Master - Confidently engages in meaningful dialogue; strong listening/facilitation; effectively explains technical information.\n3 Proficient - Expresses ideas clearly; adapts style; listens actively; communicates effectively in various formats.\n2 Basic - Communicates basic ideas with some clarity but lacks organization; listens passively.\n1 Novice - Struggles with clear communication; difficulty listening actively; struggles to articulate computing ideas."
+  },
+  {
+   "bold": 1,
+   "description": "Which of the following best describes your ability to express ideas in an organized manner with clarity, listening respectfully to diverse audience needs, leading to meaningful dialogue? ",
+   "fieldname": "ethical",
+   "fieldtype": "Select",
+   "label": "Ethical",
+   "options": "Select Option\n5 Expert - Excels in clear, persuasive communication; leads diverse discussions; creates tailored reports.\n4 Master - Confidently engages in meaningful dialogue; listens well, facilitates discussions; clearly explains technical information.\n3 Proficient - Expresses ideas clearly; adapts style; listens actively; communicates effectively in various formats.\n2 Basic - Communicates basic ideas with some clarity but lacks organization; listens passively.\n1 Novice - Struggles with clear communication; difficulty listening; struggles to articulate computing ideas effectively."
+  },
+  {
+   "bold": 1,
+   "description": "Which of the following statements best describes your level of participation in socio-economic and environmental issues leading towards sustainability, and your positive contribution to national and global development?",
+   "fieldname": "contributor_to_nation_building",
+   "fieldtype": "Select",
+   "label": "Contributor to Nation Building",
+   "options": "Select Option\n5 Expert - Innovates scalable CS/IT solutions for challenges; advocates for responsible tech in nation-building.\n4 Master - Leads projects addressing national/global challenges using CS/IT; engages with communities for sustainable impact.\n3 Proficient - Actively participates in initiatives addressing issues; applies CS/IT knowledge to promote sustainability.\n2 Basic - Awareness of issues but limited engagement in sustainability/development; participates only when required.\n1 Novice - Little to no awareness of issues; does not participate in sustainability or national development activities."
+  },
+  {
+   "bold": 1,
+   "description": "Which of the following statements best describes your approach to undertaking continuous, independent learning and charting a path in pursuit of self-actualization?\n",
+   "fieldname": "lifelong_learner",
+   "fieldtype": "Select",
+   "label": "Lifelong Learner",
+   "options": "Select Option\n5 Expert - Engages in continuous innovation; mentors others; contributes to knowledge creation (publications, thought leadership).\n4 Master - Pursues certifications, advanced studies, or research; shares knowledge with peers and communities.\n3 Proficient - Actively seeks new knowledge beyond coursework (self-study, online courses); applies learned concepts in projects.\n2 Basic - Demonstrates curiosity but engages only in assigned materials; lacks consistency in independent learning.\n1 Novice - Little interest in learning beyond required coursework; relies solely on instructors for knowledge"
+  },
+  {
+   "fieldname": "student_info_section",
+   "fieldtype": "Section Break",
+   "label": "Student Info"
+  },
+  {
+   "fieldname": "total_score",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Total Score"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-10-17 09:57:32.640611",
+ "modified_by": "Administrator",
+ "module": "APC GA",
+ "name": "Self Assessment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
