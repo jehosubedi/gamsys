@@ -11,6 +11,7 @@
   "column_break_axbw",
   "sectionblock",
   "student_email",
+  "year_level",
   "section_break_yksm",
   "solution_provider",
   "committed",
@@ -143,12 +144,18 @@
    "fieldtype": "Int",
    "hidden": 1,
    "label": "Total Score"
+  },
+  {
+   "fieldname": "year_level",
+   "fieldtype": "Select",
+   "label": "Year Level",
+   "options": "1st Year\n2nd Year\n3rd Year\n4th Year"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-17 09:57:32.640611",
+ "modified": "2025-10-17 13:52:57.897106",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Self Assessment",
