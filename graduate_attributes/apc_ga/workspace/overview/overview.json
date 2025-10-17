@@ -1,7 +1,12 @@
 {
  "app": "graduate_attributes",
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Overview\"}}]",
+ "charts": [
+  {
+   "chart_name": "Student Survey Response",
+   "label": "Student Survey Response"
+  }
+ ],
+ "content": "[{\"id\":\"mdwmzOMyQi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Overview</span>\",\"col\":12}},{\"id\":\"OCaruT7Ukr\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Student Survey Response\",\"col\":12}}]",
  "creation": "2025-10-10 15:34:01.895522",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +20,7 @@
  "label": "Overview",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-10-16 11:18:47.323073",
+ "modified": "2025-10-17 11:22:52.168041",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Overview",

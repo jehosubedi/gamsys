@@ -1,7 +1,12 @@
 {
  "app": "graduate_attributes",
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Year Level Analysis\"}}]",
+ "charts": [
+  {
+   "chart_name": "Responses by year level",
+   "label": "Responses by year level"
+  }
+ ],
+ "content": "[{\"id\":\"KOH2tOTfdg\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Year Level Analysis</span>\",\"col\":12}},{\"id\":\"GFq6HcYtXq\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Responses by year level\",\"col\":12}}]",
  "creation": "2025-10-10 15:36:33.543869",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +20,7 @@
  "label": "Year Level Analysis",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-10-10 15:36:39.204510",
+ "modified": "2025-10-17 11:38:51.168219",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Year Level Analysis",
@@ -25,7 +30,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 25.0,
+ "sequence_id": 4.0,
  "shortcuts": [],
  "title": "Year Level Analysis",
  "type": "Workspace"

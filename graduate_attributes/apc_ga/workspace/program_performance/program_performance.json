@@ -1,7 +1,12 @@
 {
  "app": "graduate_attributes",
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Program Performance\"}}]",
+ "charts": [
+  {
+   "chart_name": "Graduate Attribute Monitoring",
+   "label": "Graduate Attribute Monitoring"
+  }
+ ],
+ "content": "[{\"id\":\"c83MX7bU2Q\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Program Performance</span>\",\"col\":12}},{\"id\":\"ov2gUk0ot5\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Graduate Attribute Monitoring\",\"col\":12}}]",
  "creation": "2025-10-10 15:37:50.272260",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +20,7 @@
  "label": "Program Performance",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-10-10 15:37:57.700368",
+ "modified": "2025-10-17 11:36:03.519745",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Program Performance",
@@ -25,7 +30,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 26.0,
+ "sequence_id": 3.0,
  "shortcuts": [],
  "title": "Program Performance",
  "type": "Workspace"
