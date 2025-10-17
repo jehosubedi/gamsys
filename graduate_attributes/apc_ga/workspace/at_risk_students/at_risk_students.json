@@ -1,7 +1,16 @@
 {
  "app": "graduate_attributes",
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"At-Risk Students\"}}]",
+ "charts": [
+  {
+   "chart_name": "Risk level distribution",
+   "label": "Risk level distribution"
+  },
+  {
+   "chart_name": "Students below threshold",
+   "label": "Students below threshold"
+  }
+ ],
+ "content": "[{\"id\":\"7a0llVybU_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">At-Risk Students</span>\",\"col\":12}},{\"id\":\"Fctbw3U6US\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Risk level distribution\",\"col\":12}},{\"id\":\"hCAA9i8RDS\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Students below threshold\",\"col\":12}}]",
  "creation": "2025-10-10 16:28:28.264459",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,7 +24,7 @@
  "label": "At-Risk Students",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-10-10 16:28:35.522691",
+ "modified": "2025-10-17 15:16:28.472027",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "At-Risk Students",
@@ -25,7 +34,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 28.0,
+ "sequence_id": 6.0,
  "shortcuts": [],
  "title": "At-Risk Students",
  "type": "Workspace"
