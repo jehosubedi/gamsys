@@ -1,7 +1,7 @@
 {
  "app": "graduate_attributes",
  "charts": [],
- "content": "[{\"id\":\"-Fs9DJFVb0\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Student Reports</span>\",\"col\":12}},{\"id\":\"OSxh4PYVfo\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Student list\",\"col\":12}}]",
+ "content": "[{\"id\":\"-Fs9DJFVb0\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Student Reports</span>\",\"col\":12}},{\"id\":\"OSxh4PYVfo\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Student list\",\"col\":12}},{\"id\":\"ieeAsQxGcm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Survey Responses\",\"col\":4}}]",
  "creation": "2025-10-10 15:41:37.728178",
  "custom_blocks": [
   {
@@ -20,7 +20,7 @@
  "label": "Student Reports",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-10-17 14:37:34.279612",
+ "modified": "2025-10-17 14:50:51.042676",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Student Reports",
@@ -31,7 +31,16 @@
  "quick_lists": [],
  "roles": [],
  "sequence_id": 5.0,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "Report Builder",
+   "label": "Survey Responses",
+   "link_to": "Self Assessment",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Student Reports",
  "type": "Workspace"
 }
