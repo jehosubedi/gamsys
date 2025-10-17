@@ -2,15 +2,15 @@
  "app": "graduate_attributes",
  "charts": [
   {
-   "chart_name": "Graduate Attribute Score shares",
-   "label": "Graduate Attribute Score shares"
+   "chart_name": "Graduate Attribute Summary",
+   "label": "Graduate Attribute Share"
   },
   {
    "chart_name": "GA - Year Level Distribution",
    "label": "Year Level Distribution"
   }
  ],
- "content": "[{\"id\":\"q9Q6FcR78Y\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Overview</span>\",\"col\":12}},{\"id\":\"7jWzTtHl24\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Graduate Attribute Score shares\",\"col\":12}},{\"id\":\"xIeMuxkTuA\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Year Level Distribution\",\"col\":12}},{\"id\":\"r7cbUBElI_\",\"type\":\"card\",\"data\":{\"card_name\":\"Shortcuts\",\"col\":3}},{\"id\":\"8-VvKMro_H\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Respondents\",\"col\":3}}]",
+ "content": "[{\"id\":\"q9Q6FcR78Y\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Overview</span>\",\"col\":12}},{\"id\":\"xIeMuxkTuA\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Year Level Distribution\",\"col\":12}},{\"id\":\"P8vaztujfQ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Graduate Attribute Share\",\"col\":12}},{\"id\":\"r7cbUBElI_\",\"type\":\"card\",\"data\":{\"card_name\":\"Shortcuts\",\"col\":3}},{\"id\":\"8-VvKMro_H\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Respondents\",\"col\":3}}]",
  "creation": "2025-10-10 15:34:01.895522",
  "custom_blocks": [],
  "docstatus": 0,
@@ -54,7 +54,7 @@
    "type": "Link"
   }
  ],
- "modified": "2025-10-17 21:26:31.573445",
+ "modified": "2025-10-17 21:51:51.648628",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Overview",
