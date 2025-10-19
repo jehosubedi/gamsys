@@ -11,9 +11,9 @@ EXTRA_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 IGNORE_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 
 
-class IntegrationTestSolutionProvider(IntegrationTestCase):
+class IntegrationTestProgramList(IntegrationTestCase):
 	"""
-	Integration tests for SolutionProvider.
+	Integration tests for ProgramList.
 	Use this class for testing interactions between multiple components.
 	"""
 

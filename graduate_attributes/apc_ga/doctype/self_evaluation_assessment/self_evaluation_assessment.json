@@ -11,6 +11,7 @@
   "column_break_txhw",
   "sectionblock",
   "student_email",
+  "program",
   "section_break_yksm",
   "solution_provider",
   "committed",
@@ -146,12 +147,19 @@
    "hidden": 1,
    "label": "Total Score",
    "read_only": 1
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-19 20:10:29.523450",
+ "modified": "2025-10-19 22:17:07.276764",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Self Evaluation Assessment",
@@ -178,7 +186,23 @@
  "states": [
   {
    "color": "Blue",
-   "title": "Section/Block"
+   "title": "1st Year"
+  },
+  {
+   "color": "Green",
+   "title": "2nd Year"
+  },
+  {
+   "color": "Red",
+   "title": "3rd Year"
+  },
+  {
+   "color": "Yellow",
+   "title": "4th Year"
+  },
+  {
+   "color": "Gray",
+   "title": "Alumni"
   }
  ]
 }

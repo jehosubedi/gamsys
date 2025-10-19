@@ -17,12 +17,20 @@
    "label": "Yearly Analysis"
   },
   {
+   "chart_name": "Program Comparison",
+   "label": "Program Comparison"
+  },
+  {
    "chart_name": "Overview of Participants",
    "label": "Overview of Participants"
   }
  ],
+<<<<<<< HEAD
  "content": "[{\"id\":\"fytWSPYMug\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Overview</span>\",\"col\":12}},{\"id\":\"0e7tITZRmE\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No. of Students\",\"col\":4}},{\"id\":\"kJMAsbfpx2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Students\",\"col\":4}},{\"id\":\"MHXAMLCpGo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Submission Count\",\"col\":4}},{\"id\":\"9yOsr4BUjW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Yearly Analysis\",\"col\":12}},{\"id\":\"b6KeXeUYi3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Overview of Participants\",\"col\":6}}]",
 >>>>>>> 223fcdc (ui: updated self assessment doctypes and fixed bugs)
+=======
+ "content": "[{\"id\":\"fytWSPYMug\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Overview</span>\",\"col\":12}},{\"id\":\"MHXAMLCpGo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Submission Count\",\"col\":4}},{\"id\":\"9yOsr4BUjW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Yearly Analysis\",\"col\":12}},{\"id\":\"b6KeXeUYi3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Overview of Participants\",\"col\":6}},{\"id\":\"xnJq_VxFam\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Program Comparison\",\"col\":12}}]",
+>>>>>>> 14d33e5 (ui: added new charts for program analysis)
  "creation": "2025-10-10 15:34:01.895522",
  "custom_blocks": [],
  "docstatus": 0,
@@ -70,13 +78,18 @@
  "modified": "2025-10-17 22:19:38.388113",
 =======
  "links": [],
+<<<<<<< HEAD
  "modified": "2025-10-19 19:39:28.080134",
 >>>>>>> 223fcdc (ui: updated self assessment doctypes and fixed bugs)
+=======
+ "modified": "2025-10-19 22:28:48.753948",
+>>>>>>> 14d33e5 (ui: added new charts for program analysis)
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Overview",
  "number_cards": [
   {
+<<<<<<< HEAD
 <<<<<<< HEAD
    "label": "Total Respondents",
    "number_card_name": "Total Respondents"
@@ -92,6 +105,10 @@
    "label": "No. of Students",
    "number_card_name": "Overall Scores"
 >>>>>>> 223fcdc (ui: updated self assessment doctypes and fixed bugs)
+=======
+   "label": "Submission Count",
+   "number_card_name": "Submission Count"
+>>>>>>> 14d33e5 (ui: added new charts for program analysis)
   }
  ],
  "owner": "Administrator",
