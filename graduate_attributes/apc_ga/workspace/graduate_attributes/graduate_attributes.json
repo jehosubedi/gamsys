@@ -1,5 +1,6 @@
 {
  "app": "graduate_attributes",
+<<<<<<< HEAD
  "charts": [
   {
    "chart_name": "Graduate Attribute Score shares",
@@ -7,13 +8,12 @@
   }
  ],
  "content": "[{\"id\":\"m9V4izdIbK\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Graduate Attributes</span>\",\"col\":12}},{\"id\":\"NL8_zQGrZ8\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Graduate attribute score shares\",\"col\":12}},{\"id\":\"SMu7ygqU-K\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Average Score per Attribute\",\"col\":12}}]",
+=======
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Graduate Attributes\"}}]",
+>>>>>>> parent of 7929c4a (added new changes)
  "creation": "2025-10-10 15:35:19.473004",
- "custom_blocks": [
-  {
-   "custom_block_name": "Average Score per Attribute",
-   "label": "Average Score per Attribute"
-  }
- ],
+ "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -25,7 +25,11 @@
  "label": "Graduate Attributes",
  "link_type": "DocType",
  "links": [],
+<<<<<<< HEAD
  "modified": "2025-10-17 15:17:52.141465",
+=======
+ "modified": "2025-10-10 15:35:29.437679",
+>>>>>>> parent of 7929c4a (added new changes)
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Graduate Attributes",
@@ -35,7 +39,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 2.0,
+ "sequence_id": 24.0,
  "shortcuts": [],
  "title": "Graduate Attributes",
  "type": "Workspace"
