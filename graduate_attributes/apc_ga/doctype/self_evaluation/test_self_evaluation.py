@@ -11,17 +11,9 @@ EXTRA_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 IGNORE_TEST_RECORD_DEPENDENCIES = []  # eg. ["User"]
 
 
-<<<<<<< HEAD
-
-<<<<<<< HEAD:graduate_attributes/apc_ga/doctype/self_assessment/test_self_assessment.py
-class IntegrationTestSelfAssessment(IntegrationTestCase):
-=======
-=======
->>>>>>> 14d33e5 (ui: added new charts for program analysis)
-class IntegrationTestYearLevel(IntegrationTestCase):
->>>>>>> 223fcdc (ui: updated self assessment doctypes and fixed bugs):graduate_attributes/apc_ga/doctype/year_level/test_year_level.py
+class IntegrationTestSelfEvaluation(IntegrationTestCase):
 	"""
-	Integration tests for YearLevel.
+	Integration tests for SelfEvaluation.
 	Use this class for testing interactions between multiple components.
 	"""
 

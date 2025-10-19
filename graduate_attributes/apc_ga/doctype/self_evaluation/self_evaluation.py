@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class YearLevel(Document):
+class SelfEvaluation(Document):
 	pass
