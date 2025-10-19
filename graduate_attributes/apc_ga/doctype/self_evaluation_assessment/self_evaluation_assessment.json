@@ -1,14 +1,14 @@
 {
  "actions": [],
- "autoname": "format:{student_id}-{sectionblock}",
- "creation": "2025-10-17 08:45:17.702681",
+ "autoname": "format:{student_id}-{full_name}",
+ "creation": "2025-10-19 20:05:46.936278",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "student_info_section",
   "full_name",
   "student_id",
-  "column_break_axbw",
+  "year_level",
+  "column_break_txhw",
   "sectionblock",
   "student_email",
   "section_break_yksm",
@@ -32,6 +32,7 @@
    "placeholder": "Input Student Name"
   },
   {
+   "description": "ex: 2022-140XXX",
    "fieldname": "student_id",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -39,11 +40,21 @@
    "placeholder": "Input Student ID"
   },
   {
+   "fieldname": "year_level",
+   "fieldtype": "Link",
+   "label": "Year Level",
+   "options": "Year Level"
+  },
+  {
+   "fieldname": "column_break_txhw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "ex: BSCS-SF221",
    "fieldname": "sectionblock",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Section/Block",
-   "placeholder": "Input Your Block"
+   "label": "Section/Block"
   },
   {
    "fieldname": "student_email",
@@ -51,10 +62,6 @@
    "in_list_view": 1,
    "label": "Student Email",
    "placeholder": "Input Student Email"
-  },
-  {
-   "fieldname": "column_break_axbw",
-   "fieldtype": "Column Break"
   },
   {
    "fieldname": "section_break_yksm",
@@ -87,19 +94,19 @@
   },
   {
    "bold": 1,
-   "description": "Which of the following best describes your ability to demonstrate leadership to inspire the achievement of team goals with open collaboration and respect for new ideas?",
-   "fieldname": "team_player",
-   "fieldtype": "Select",
-   "label": "Team Player",
-   "options": "Select Option\n5 Expert - Leads teams strategically; fosters inclusive communication; drives high-impact IT projects through collaboration.\n4 Master - Initiates and coordinates tasks; facilitates discussions; integrates ideas; constructively resolves conflicts.\n3 Proficient - Actively contributes; collaborates, listens to perspectives, shares ideas; supports objectives effectively.\n2 Basic - Participates; focuses on individual tasks; requires prompts; relies on guidance for coordination.\n1 Novice - Struggles with collaboration; works in isolation; disregards team goals; minimally contributes."
-  },
-  {
-   "bold": 1,
    "description": "How effectively do you show respect for diversity and practice empathy (malasakit) to enhance customer cultural experiences?",
    "fieldname": "customer_oriented",
    "fieldtype": "Select",
    "label": "Customer Oriented",
    "options": "Select Option\n5 Expert - Champions strategies integrating cultural sensitivity; leads malasakit; designs user-centric solutions optimizing experience.\n4 Master - Anticipates customer needs; ensures a culturally inclusive experience; advocates for empathetic service.\n3 Proficient - Responds to needs with sensitivity; aware of diversity; applies malasakit and usability to improve experience.\n2 Basic - Basic respect for needs but lacks consistent empathy; requires guidance in diverse interactions.\n1 Novice - Minimal awareness of needs, diversity, or UX; responses to concerns are often indifferent or dismissive."
+  },
+  {
+   "bold": 1,
+   "description": "Which of the following best describes your ability to demonstrate leadership to inspire the achievement of team goals with open collaboration and respect for new ideas?",
+   "fieldname": "team_player",
+   "fieldtype": "Select",
+   "label": "Team Player",
+   "options": "Select Option\n5 Expert - Leads teams strategically; fosters inclusive communication; drives high-impact IT projects through collaboration.\n4 Master - Initiates and coordinates tasks; facilitates discussions; integrates ideas; constructively resolves conflicts.\n3 Proficient - Actively contributes; collaborates, listens to perspectives, shares ideas; supports objectives effectively.\n2 Basic - Participates; focuses on individual tasks; requires prompts; relies on guidance for coordination.\n1 Novice - Struggles with collaboration; works in isolation; disregards team goals; minimally contributes."
   },
   {
    "bold": 1,
@@ -134,24 +141,20 @@
    "options": "Select Option\n5 Expert - Engages in continuous innovation; mentors others; contributes to knowledge creation (publications, thought leadership).\n4 Master - Pursues certifications, advanced studies, or research; shares knowledge with peers and communities.\n3 Proficient - Actively seeks new knowledge beyond coursework (self-study, online courses); applies learned concepts in projects.\n2 Basic - Demonstrates curiosity but engages only in assigned materials; lacks consistency in independent learning.\n1 Novice - Little interest in learning beyond required coursework; relies solely on instructors for knowledge"
   },
   {
-   "fieldname": "student_info_section",
-   "fieldtype": "Section Break",
-   "label": "Student Info"
-  },
-  {
    "fieldname": "total_score",
    "fieldtype": "Int",
    "hidden": 1,
-   "label": "Total Score"
+   "label": "Total Score",
+   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-17 09:57:32.640611",
+ "modified": "2025-10-19 20:10:29.523450",
  "modified_by": "Administrator",
  "module": "APC GA",
- "name": "Self Assessment",
+ "name": "Self Evaluation Assessment",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
@@ -172,5 +175,10 @@
  "rows_threshold_for_grid_search": 20,
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [
+  {
+   "color": "Blue",
+   "title": "Section/Block"
+  }
+ ]
 }

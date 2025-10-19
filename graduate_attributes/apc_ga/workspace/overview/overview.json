@@ -2,6 +2,7 @@
  "app": "graduate_attributes",
  "charts": [
   {
+<<<<<<< HEAD
    "chart_name": "Graduate Attribute Summary",
    "label": "Graduate Attribute Share"
   },
@@ -11,6 +12,17 @@
   }
  ],
  "content": "[{\"id\":\"q9Q6FcR78Y\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Overview</span>\",\"col\":12}},{\"id\":\"xIeMuxkTuA\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Year Level Distribution\",\"col\":12}},{\"id\":\"P8vaztujfQ\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Graduate Attribute Share\",\"col\":12}},{\"id\":\"r7cbUBElI_\",\"type\":\"card\",\"data\":{\"card_name\":\"Shortcuts\",\"col\":3}},{\"id\":\"8-VvKMro_H\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Respondents\",\"col\":3}}]",
+=======
+   "chart_name": "Yearly Analysis",
+   "label": "Yearly Analysis"
+  },
+  {
+   "chart_name": "Overview of Participants",
+   "label": "Overview of Participants"
+  }
+ ],
+ "content": "[{\"id\":\"fytWSPYMug\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Overview</span>\",\"col\":12}},{\"id\":\"0e7tITZRmE\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"No. of Students\",\"col\":4}},{\"id\":\"kJMAsbfpx2\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Completed Students\",\"col\":4}},{\"id\":\"MHXAMLCpGo\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Submission Count\",\"col\":4}},{\"id\":\"9yOsr4BUjW\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Yearly Analysis\",\"col\":12}},{\"id\":\"b6KeXeUYi3\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Overview of Participants\",\"col\":6}}]",
+>>>>>>> 223fcdc (ui: updated self assessment doctypes and fixed bugs)
  "creation": "2025-10-10 15:34:01.895522",
  "custom_blocks": [],
  "docstatus": 0,
@@ -23,6 +35,7 @@
  "is_hidden": 0,
  "label": "Overview",
  "link_type": "DocType",
+<<<<<<< HEAD
  "links": [
   {
    "hidden": 0,
@@ -55,13 +68,30 @@
   }
  ],
  "modified": "2025-10-17 22:19:38.388113",
+=======
+ "links": [],
+ "modified": "2025-10-19 19:39:28.080134",
+>>>>>>> 223fcdc (ui: updated self assessment doctypes and fixed bugs)
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Overview",
  "number_cards": [
   {
+<<<<<<< HEAD
    "label": "Total Respondents",
    "number_card_name": "Total Respondents"
+=======
+   "label": "Completed Students",
+   "number_card_name": "Completed Students"
+  },
+  {
+   "label": "Submission Count",
+   "number_card_name": "Submission Count"
+  },
+  {
+   "label": "No. of Students",
+   "number_card_name": "Overall Scores"
+>>>>>>> 223fcdc (ui: updated self assessment doctypes and fixed bugs)
   }
  ],
  "owner": "Administrator",
