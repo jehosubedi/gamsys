@@ -11,7 +11,11 @@
   "column_break_txhw",
   "sectionblock",
   "student_email",
+HEAD:graduate_attributes/apc_ga/doctype/self_evaluation_assessment/self_evaluation_assessment.json
   "program",
+
+  "year_level",
+7929c4a (added new changes):graduate_attributes/apc_ga/doctype/self_assessment/self_assessment.json
   "section_break_yksm",
   "solution_provider",
   "committed",
@@ -145,6 +149,7 @@
    "fieldname": "total_score",
    "fieldtype": "Int",
    "hidden": 1,
+<<<<<<< HEAD:graduate_attributes/apc_ga/doctype/self_evaluation_assessment/self_evaluation_assessment.json
    "label": "Total Score",
    "read_only": 1
   },
@@ -154,12 +159,25 @@
    "label": "Program",
    "options": "Program",
    "reqd": 1
+=======
+   "label": "Total Score"
+  },
+  {
+   "fieldname": "year_level",
+   "fieldtype": "Select",
+   "label": "Year Level",
+   "options": "1st Year\n2nd Year\n3rd Year\n4th Year"
+>>>>>>> 7929c4a (added new changes):graduate_attributes/apc_ga/doctype/self_assessment/self_assessment.json
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
+HEAD:graduate_attributes/apc_ga/doctype/self_evaluation_assessment/self_evaluation_assessment.json
  "modified": "2025-10-19 22:17:07.276764",
+
+ "modified": "2025-10-17 13:52:57.897106",
+7929c4a (added new changes):graduate_attributes/apc_ga/doctype/self_assessment/self_assessment.json
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Self Evaluation Assessment",
