@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class SelfAssessment(Document):
+class SelfEvaluation(Document):
 	pass
