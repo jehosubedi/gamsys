@@ -1,7 +1,20 @@
 {
  "app": "graduate_attributes",
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Overview\"}}]",
+ "charts": [
+  {
+   "chart_name": "Overview of Participants",
+   "label": "Overview of Participants"
+  },
+  {
+   "chart_name": "Program Comparison",
+   "label": "Program Comparison"
+  },
+  {
+   "chart_name": "Yearly Analysis",
+   "label": "Yearly Analysis"
+  }
+ ],
+ "content": "[{\"id\":\"yHuRsB6Gii\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Self Evaluation Report\",\"col\":6}},{\"id\":\"2I4UsJViz1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attributes\",\"col\":6}},{\"id\":\"MQ45jBe1QY\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Submission Count\",\"col\":4}},{\"id\":\"G4RiL-87x4\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"p9YakoCpbP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Overview of Participants\",\"col\":12}},{\"id\":\"2gPtJzfbjJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Comparative Chart of Academic Programs</span>\",\"col\":12}},{\"id\":\"0mbX5-K286\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Program Comparison\",\"col\":12}},{\"id\":\"LgfyHBcBl2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2cZR9IDJu4\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Yearly Analysis\",\"col\":6}},{\"id\":\"4PZ5ydGgmg\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student Assessment Lists\",\"col\":6}}]",
  "creation": "2025-10-19 23:29:55.682978",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,18 +28,47 @@
  "label": "Overview",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-10-19 23:30:04.097211",
+ "modified": "2025-10-20 00:41:40.042717",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Overview",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "Submission Count",
+   "number_card_name": "Submission Count"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Self Evaluation",
+   "label": "Student Assessment Lists",
+   "quick_list_filter": "[]"
+  }
+ ],
  "roles": [],
- "sequence_id": 23.0,
- "shortcuts": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "format": "{} Open",
+   "label": "Self Evaluation Report",
+   "link_to": "Self Evaluation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Attributes",
+   "link_to": "Self Evaluation",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
  "title": "Overview",
  "type": "Workspace"
 }
