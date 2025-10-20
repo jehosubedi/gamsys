@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class SolutionProvider(Document):
+class AttributeRatingDescription(Document):
 	pass
