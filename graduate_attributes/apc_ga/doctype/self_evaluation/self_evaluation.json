@@ -18,10 +18,11 @@
   "it_enabled",
   "customer_oriented",
   "team_player",
-  "good_communicator",
+  "column_break_jpup",
   "ethical",
   "contributor_to_nation_building",
   "lifelong_learner",
+  "good_communicator",
   "total_score"
  ],
  "fields": [
@@ -154,12 +155,16 @@
    "hidden": 1,
    "label": "Total Score",
    "read_only": 1
+  },
+  {
+   "fieldname": "column_break_jpup",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-19 23:14:50.566963",
+ "modified": "2025-10-21 00:26:38.391040",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Self Evaluation",
