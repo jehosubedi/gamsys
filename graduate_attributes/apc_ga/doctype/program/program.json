@@ -1,24 +1,24 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{program}",
- "creation": "2025-10-19 21:51:38.358363",
+ "autoname": "format:{year_name}",
+ "creation": "2025-10-21 10:44:50.159888",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "program"
+  "year_name"
  ],
  "fields": [
   {
-   "fieldname": "program",
+   "fieldname": "year_name",
    "fieldtype": "Data",
-   "label": "Program"
+   "label": "Year Name"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-19 21:52:30.532770",
+ "modified": "2025-10-21 10:45:15.747270",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Program",

@@ -1,26 +1,25 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2025-10-19 21:49:05.149215",
+ "creation": "2025-10-21 09:00:06.121274",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "program"
+  "section_break_ityy"
  ],
  "fields": [
   {
-   "fieldname": "program",
-   "fieldtype": "Data",
-   "label": "Program"
+   "fieldname": "section_break_ityy",
+   "fieldtype": "Section Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-19 21:49:23.834027",
+ "modified": "2025-10-21 09:00:06.121274",
  "modified_by": "Administrator",
  "module": "APC GA",
- "name": "Program List",
+ "name": "Attributes",
  "owner": "Administrator",
  "permissions": [
   {

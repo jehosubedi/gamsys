@@ -1,7 +1,12 @@
 {
  "app": "graduate_attributes",
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Program Performance\"}}]",
+ "charts": [
+  {
+   "chart_name": "Program Difference",
+   "label": "Program Difference"
+  }
+ ],
+ "content": "[{\"id\":\"IJFbZvN51C\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Program Performance</span>\",\"col\":12}},{\"id\":\"Kv7l7W_48x\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"ACT\",\"col\":4}},{\"id\":\"JM2w93p-9S\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"BSCS\",\"col\":4}},{\"id\":\"PEwx2TYH8R\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"BSIT\",\"col\":4}},{\"id\":\"5d7DijaJF-\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Program Difference\",\"col\":12}}]",
  "creation": "2025-10-10 15:37:50.272260",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,17 +20,30 @@
  "label": "Program Performance",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-10-10 15:37:57.700368",
+ "modified": "2025-10-21 12:10:19.159911",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Program Performance",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "ACT",
+   "number_card_name": "ACT"
+  },
+  {
+   "label": "BSCS",
+   "number_card_name": "BSCS"
+  },
+  {
+   "label": "BSIT",
+   "number_card_name": "BSIT"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 26.0,
+ "sequence_id": 4.0,
  "shortcuts": [],
  "title": "Program Performance",
  "type": "Workspace"

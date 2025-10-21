@@ -10,7 +10,7 @@
    "label": "Year Level Ratio"
   }
  ],
- "content": "[{\"id\":\"jS5ecK0Q0T\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Year Level Analysis</span>\",\"col\":12}},{\"id\":\"VvIO-8zdQd\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"1st Year\",\"col\":3}},{\"id\":\"x3fgC_ktwG\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"2nd Year\",\"col\":3}},{\"id\":\"Yyqwz61iQ_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"3rd Year\",\"col\":3}},{\"id\":\"InDnROkGaX\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"4th Year\",\"col\":3}},{\"id\":\"MnpfLMvDrR\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Year Level Difference\",\"col\":12}},{\"id\":\"IZmClYW6ni\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Year Level Ratio\",\"col\":12}}]",
+ "content": "[{\"id\":\"jS5ecK0Q0T\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Year Level Analysis</span>\",\"col\":12}},{\"id\":\"3s6fkpH0en\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"1st Year\",\"col\":4}},{\"id\":\"NgljEilk_1\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"2nd Year\",\"col\":4}},{\"id\":\"1NLH8w_mmB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"3rd Year\",\"col\":4}},{\"id\":\"gOaSjlPtIH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"4th Year\",\"col\":4}},{\"id\":\"MOQVZcRK3N\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Alumni\",\"col\":4}},{\"id\":\"4zbq-7fQD0\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"AG46s-CDqC\",\"type\":\"paragraph\",\"data\":{\"text\":\"Difference Level of each Year\",\"col\":12}},{\"id\":\"84Tpkd5dI5\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Year Level Difference\",\"col\":12}},{\"id\":\"5N3HCyVIIl\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Year Level Ratio\",\"col\":12}},{\"id\":\"nQcoYrtpTX\",\"type\":\"paragraph\",\"data\":{\"text\":\"Year Level Report Lists&nbsp;\",\"col\":12}},{\"id\":\"DVSBeltMf3\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Self Evaluation Report\",\"col\":8}},{\"id\":\"obdLEib3nV\",\"type\":\"card\",\"data\":{\"card_name\":\"Shortcuts\",\"col\":4}}]",
  "creation": "2025-10-19 23:31:27.574658",
  "custom_blocks": [],
  "docstatus": 0,
@@ -23,19 +23,40 @@
  "is_hidden": 0,
  "label": "Year Level Analysis",
  "link_type": "DocType",
- "links": [],
- "modified": "2025-10-20 01:16:29.434086",
+ "links": [
+  {
+   "description": "Shortcuts to Year Levels",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Shortcuts",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Self Evaluation",
+   "link_count": 0,
+   "link_to": "Self Evaluation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-10-21 12:18:26.051637",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Year Level Analysis",
  "number_cards": [
   {
-   "label": "1st Year",
-   "number_card_name": "Year Level"
-  },
-  {
    "label": "2nd Year",
    "number_card_name": "2nd Year"
+  },
+  {
+   "label": "1st Year",
+   "number_card_name": "1st Year"
   },
   {
    "label": "3rd Year",
@@ -44,12 +65,22 @@
   {
    "label": "4th Year",
    "number_card_name": "4th Year"
+  },
+  {
+   "label": "Alumni",
+   "number_card_name": "Alumni"
   }
  ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Self Evaluation",
+   "label": "Self Evaluation Report",
+   "quick_list_filter": "[[\"Self Evaluation\",\"year_level\",\"=\",\"1st Year\",false],[\"Self Evaluation\",\"year_level\",\"=\",\"2nd Year\",false]]"
+  }
+ ],
  "roles": [],
  "sequence_id": 3.0,
  "shortcuts": [],
