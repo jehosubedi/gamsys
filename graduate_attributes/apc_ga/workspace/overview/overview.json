@@ -14,9 +14,14 @@
    "label": "Yearly Analysis"
   }
  ],
- "content": "[{\"id\":\"yHuRsB6Gii\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Self Evaluation Report\",\"col\":6}},{\"id\":\"2I4UsJViz1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attributes\",\"col\":6}},{\"id\":\"MQ45jBe1QY\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Submission Count\",\"col\":4}},{\"id\":\"G4RiL-87x4\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"p9YakoCpbP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Overview of Participants\",\"col\":12}},{\"id\":\"2gPtJzfbjJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Comparative Chart of Academic Programs</span>\",\"col\":12}},{\"id\":\"0mbX5-K286\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Program Comparison\",\"col\":12}},{\"id\":\"LgfyHBcBl2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2cZR9IDJu4\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Yearly Analysis\",\"col\":6}},{\"id\":\"4PZ5ydGgmg\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student Assessment Lists\",\"col\":6}}]",
+ "content": "[{\"id\":\"yHuRsB6Gii\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Self Evaluation Report\",\"col\":6}},{\"id\":\"2I4UsJViz1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attributes\",\"col\":6}},{\"id\":\"MQ45jBe1QY\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Submission Count\",\"col\":4}},{\"id\":\"a-qJcHR8_I\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Test\",\"col\":12}},{\"id\":\"G4RiL-87x4\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"p9YakoCpbP\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Overview of Participants\",\"col\":12}},{\"id\":\"2gPtJzfbjJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Comparative Chart of Academic Programs</span>\",\"col\":12}},{\"id\":\"0mbX5-K286\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Program Comparison\",\"col\":12}},{\"id\":\"LgfyHBcBl2\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"2cZR9IDJu4\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Yearly Analysis\",\"col\":6}},{\"id\":\"4PZ5ydGgmg\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Student Assessment Lists\",\"col\":6}}]",
  "creation": "2025-10-19 23:29:55.682978",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Test",
+   "label": "Test"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -28,7 +33,7 @@
  "label": "Overview",
  "link_type": "DocType",
  "links": [],
- "modified": "2025-10-20 00:41:40.042717",
+ "modified": "2025-10-23 01:03:14.259037",
  "modified_by": "Administrator",
  "module": "APC GA",
  "name": "Overview",

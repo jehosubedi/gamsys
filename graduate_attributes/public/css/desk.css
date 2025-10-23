@@ -1,0 +1,11 @@
+/* Target the main content wrapper and set max-width to none or 100% */
+.page-container,
+.container {
+    max-width: 100% !important;
+}
+
+/* You might also need to adjust the width of the main desk content area */
+.desk-page-content .container {
+    max-width: 100% !important;
+    width: 100% !important;
+}
