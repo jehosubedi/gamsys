@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "autoname": "format:{student_id}-{full_name}",
  "creation": "2025-10-26 01:11:11.476185",
  "doctype": "DocType",
@@ -54,8 +55,9 @@
   },
   {
    "fieldname": "year_level",
-   "fieldtype": "Data",
-   "label": "Year Level"
+   "fieldtype": "Link",
+   "label": "Year Level",
+   "options": "Year Level"
   },
   {
    "fieldname": "column_break_jqbm",
@@ -68,9 +70,10 @@
   },
   {
    "fieldname": "program",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Program"
+   "label": "Program",
+   "options": "Program"
   },
   {
    "fieldname": "school_year",
@@ -179,7 +182,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-10-26 14:36:18.823327",
+ "modified": "2025-10-26 21:14:18.412505",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Self Evaluation",
