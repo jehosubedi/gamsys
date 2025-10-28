@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"id\":\"u1zNOYQqUW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Good Communicator</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"yxKmq-itUW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Good Communicator \u2013 <span style=\\\"font-weight: normal;\\\">Expresses ideas clearly and listens actively to ensure understanding in both written and verbal communication.</span></span>\",\"col\":12}},{\"id\":\"EC-R7wcnWM\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Good Communicator\",\"col\":12}}]",
  "creation": "2025-10-26 14:07:53.122368",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Good Communicator",
+   "label": "Good Communicator"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "Good Communicator",
  "links": [],
- "modified": "2025-10-26 14:49:58.332796",
+ "modified": "2025-10-28 06:27:03.602837",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Good Communicator",

@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Survey Participation\"}}]",
+ "content": "[{\"id\":\"xv7naMKS8_\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Survey Participation</span>\",\"col\":12}},{\"id\":\"77UVsYiZVy\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Respondents\",\"col\":4}}]",
  "creation": "2025-10-26 00:36:52.528333",
  "custom_blocks": [],
  "docstatus": 0,
@@ -10,20 +10,25 @@
  "icon": "small-file",
  "idx": 0,
  "indicator_color": "green",
- "is_hidden": 0,
+ "is_hidden": 1,
  "label": "Survey Participation",
  "links": [],
- "modified": "2025-10-26 14:08:01.340097",
+ "modified": "2025-10-28 12:19:58.007366",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Survey Participation",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "Respondents",
+   "number_card_name": "Respondents"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 12.0,
+ "sequence_id": 15.0,
  "shortcuts": [],
  "title": "Survey Participation"
 }

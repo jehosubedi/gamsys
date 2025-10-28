@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Committed\"}}]",
+ "content": "[{\"id\":\"NEopMtsu10\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Committed \u2013 <span style=\\\"font-weight: normal;\\\">Demonstrates dedication and responsibility in completing tasks, consistently meeting goals, and showing persistence even when faced with challenges.</span></span>\",\"col\":12}},{\"id\":\"SjNhWYpS51\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Committed\",\"col\":12}}]",
  "creation": "2025-10-26 13:56:34.145907",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Committed",
+   "label": "Committed"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "Committed",
  "links": [],
- "modified": "2025-10-26 14:49:31.911666",
+ "modified": "2025-10-27 18:42:38.118681",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Committed",

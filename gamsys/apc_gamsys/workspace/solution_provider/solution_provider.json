@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"id\":\"Lb-gl8rUWr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Solution Provider</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"CDI2_DHEiI\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Solutions Provider \u2013<span style=\\\"font-weight: normal;\\\"> Identifies problems and applies critical thinking and creativity to develop effective and practical solutions.</span></span>\",\"col\":12}},{\"id\":\"XARmVV1vgp\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Solution Provider\",\"col\":12}}]",
  "creation": "2025-10-26 13:55:55.942200",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Solution Provider",
+   "label": "Solution Provider"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "Solution Provider",
  "links": [],
- "modified": "2025-10-26 14:49:22.884422",
+ "modified": "2025-10-28 06:24:49.492616",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Solution Provider",

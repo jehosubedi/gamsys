@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"id\":\"ortQmWs1wV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Contributor to Nation Building</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"ortQmWs1wV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Contributor to Nation Building<span style=\\\"font-weight: normal;\\\">\u2013 Uses knowledge and skills to create positive social impact and promote the country\u2019s development.</span></span>\",\"col\":12}},{\"id\":\"_yO6kB8MJz\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Contributor to Nation Building\",\"col\":12}}]",
  "creation": "2025-10-26 14:10:58.950251",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Contributor to Nation Building",
+   "label": "Contributor to Nation Building"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "Contributor to Nation Building",
  "links": [],
- "modified": "2025-10-26 14:50:11.198387",
+ "modified": "2025-10-28 06:28:06.161017",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Contributor to Nation Building",
@@ -23,7 +28,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 24.0,
+ "sequence_id": 13.0,
  "shortcuts": [],
  "title": "Contributor to Nation Building"
 }

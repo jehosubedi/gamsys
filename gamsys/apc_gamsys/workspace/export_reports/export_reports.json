@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Export Reports\"}}]",
+ "content": "[{\"id\":\"rpNHNgXGUm\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Export Reports\",\"col\":12}}]",
  "creation": "2025-10-26 00:37:42.546635",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Export Reports",
+   "label": "Export Reports"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "Export Reports",
  "links": [],
- "modified": "2025-10-26 14:08:01.377570",
+ "modified": "2025-10-27 18:21:50.640801",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Export Reports",
@@ -23,7 +28,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 13.0,
+ "sequence_id": 16.0,
  "shortcuts": [],
  "title": "Export Reports"
 }

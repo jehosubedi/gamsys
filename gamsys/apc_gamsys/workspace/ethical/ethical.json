@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"id\":\"xa1_mLqYrk\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Ethical</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"UWm4GYeC0n\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Ethical \u2013 <span style=\\\"font-weight: normal;\\\">Acts with honesty, fairness, and integrity while following moral and professional standards.</span></span>\",\"col\":12}},{\"id\":\"fwpJIiiCMe\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Ethical\",\"col\":12}}]",
  "creation": "2025-10-26 14:09:33.675608",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Ethical",
+   "label": "Ethical"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "Ethical",
  "links": [],
- "modified": "2025-10-26 14:50:04.922103",
+ "modified": "2025-10-28 06:27:37.528834",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Ethical",
@@ -23,7 +28,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 23.0,
+ "sequence_id": 12.0,
  "shortcuts": [],
  "title": "Ethical"
 }

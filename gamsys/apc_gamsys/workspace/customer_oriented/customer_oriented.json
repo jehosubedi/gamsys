@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"id\":\"QkoE3puyCI\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Customer Oriented</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"kswGYCNnN-\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Customer Oriented \u2013 <span style=\\\"font-weight: normal;\\\">Understands and responds to the needs of clients or users, ensuring satisfaction and building positive relationships.</span></span>\",\"col\":12}},{\"id\":\"mw9M43e1ao\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Customer Oriented\",\"col\":12}}]",
  "creation": "2025-10-26 13:57:44.979890",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Customer Oriented",
+   "label": "Customer Oriented"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "Customer Oriented",
  "links": [],
- "modified": "2025-10-26 14:49:45.365454",
+ "modified": "2025-10-27 18:43:18.858146",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Customer Oriented",

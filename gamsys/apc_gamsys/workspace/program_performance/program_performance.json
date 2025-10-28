@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Program Performance\"}}]",
+ "charts": [
+  {
+   "chart_name": "Program Distribution",
+   "label": "Program Distribution"
+  }
+ ],
+ "content": "[{\"id\":\"ywTIrIXyF2\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Program Performance</span>\",\"col\":12}},{\"id\":\"xLmPmlwdDm\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"ACT\",\"col\":4}},{\"id\":\"NFa-ptbvOt\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"BSCS\",\"col\":4}},{\"id\":\"l37JBb2jbg\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"BSIT\",\"col\":4}},{\"id\":\"E-RRHnwEcj\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Program Distribution\",\"col\":12}}]",
  "creation": "2025-10-26 00:20:26.230572",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,11 +18,24 @@
  "is_hidden": 0,
  "label": "Program Performance",
  "links": [],
- "modified": "2025-10-26 14:08:01.091051",
- "modified_by": "Administrator",
+ "modified": "2025-10-27 18:39:50.010480",
+ "modified_by": "manerez@student.apc.edu.ph",
  "module": "APC Gamsys",
  "name": "Program Performance",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "ACT",
+   "number_card_name": "ACT"
+  },
+  {
+   "label": "BSCS",
+   "number_card_name": "BSCS"
+  },
+  {
+   "label": "BSIT",
+   "number_card_name": "BSIT"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,

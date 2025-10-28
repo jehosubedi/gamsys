@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"id\":\"dA3c2EAgvi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Graduate Attributes</span>\",\"col\":12}}]",
+ "charts": [
+  {
+   "chart_name": "5 rating on Graduate Attributes",
+   "label": "5 Ratings on Graduate Attributes"
+  }
+ ],
+ "content": "[{\"id\":\"dA3c2EAgvi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Graduate Attributes</span>\",\"col\":12}},{\"id\":\"SfxjHr02Ih\",\"type\":\"paragraph\",\"data\":{\"text\":\"This section presents an overview of how students demonstrate key graduate attributes based on self-evaluation data. Each attribute reflects essential qualities expected of graduates\u2014such as ethical behavior, teamwork, communication, and lifelong learning. The metrics and visualizations here provide insights into the strengths and areas for improvement across different school years, helping stakeholders monitor development trends and ensure alignment with institutional outcomes.\",\"col\":12}},{\"id\":\"UG78hKvIVV\",\"type\":\"chart\",\"data\":{\"chart_name\":\"5 Ratings on Graduate Attributes\",\"col\":12}}]",
  "creation": "2025-10-26 00:11:41.103628",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,8 +18,8 @@
  "is_hidden": 0,
  "label": "Graduate Attributes",
  "links": [],
- "modified": "2025-10-26 14:08:00.972911",
- "modified_by": "Administrator",
+ "modified": "2025-10-28 12:26:13.379675",
+ "modified_by": "manerez@student.apc.edu.ph",
  "module": "APC Gamsys",
  "name": "Graduate Attributes",
  "number_cards": [],

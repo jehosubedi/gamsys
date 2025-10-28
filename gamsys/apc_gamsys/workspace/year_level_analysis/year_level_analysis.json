@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Year Level Analysis\"}}]",
+ "charts": [
+  {
+   "chart_name": "Response Distribution",
+   "label": "Response Distribution"
+  }
+ ],
+ "content": "[{\"id\":\"kn_pNhERiz\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Year Level Analysis</span>\",\"col\":12}},{\"id\":\"KFQTCtDogA\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"1st Year\",\"col\":3}},{\"id\":\"7lzKN_Jgr6\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"2nd Year\",\"col\":3}},{\"id\":\"s1r4xq3g4Q\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"3rd Year\",\"col\":3}},{\"id\":\"SmZFsFTiOf\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"4th Year\",\"col\":3}},{\"id\":\"ojKebK56XY\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Alumni\",\"col\":3}},{\"id\":\"B93Vmk3n0d\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Response Distribution\",\"col\":12}}]",
  "creation": "2025-10-26 00:19:28.940594",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,11 +18,32 @@
  "is_hidden": 0,
  "label": "Year Level Analysis",
  "links": [],
- "modified": "2025-10-26 14:08:01.029795",
+ "modified": "2025-10-27 16:29:30.802493",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Year Level Analysis",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "1st Year",
+   "number_card_name": "1st Year"
+  },
+  {
+   "label": "2nd Year",
+   "number_card_name": "2nd Year"
+  },
+  {
+   "label": "3rd Year",
+   "number_card_name": "3rd Year"
+  },
+  {
+   "label": "4th Year",
+   "number_card_name": "4th Year"
+  },
+  {
+   "label": "Alumni",
+   "number_card_name": "Alumni"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,

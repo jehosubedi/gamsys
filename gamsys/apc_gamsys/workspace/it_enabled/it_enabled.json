@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"IT Enabled\"}}]",
+ "content": "[{\"id\":\"6FrCM6LVMO\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>IT Enabled</b>\u2013 <span style=\\\"font-weight: normal;\\\">Uses technology effectively to solve problems, improve processes, and support innovation in different areas of work.</span></span>\",\"col\":12}},{\"id\":\"zCytax7hXb\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"IT Enabled\",\"col\":12}}]",
  "creation": "2025-10-26 13:57:08.119992",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "IT Enabled",
+   "label": "IT Enabled"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "IT Enabled",
  "links": [],
- "modified": "2025-10-26 14:49:39.082283",
+ "modified": "2025-10-28 06:25:22.964352",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "IT Enabled",

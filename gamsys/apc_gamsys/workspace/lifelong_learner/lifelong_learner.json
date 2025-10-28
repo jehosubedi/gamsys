@@ -1,8 +1,13 @@
 {
  "charts": [],
- "content": "[{\"id\":\"BBdB1eCN--\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Lifelong Learner</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"BBdB1eCN--\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Lifelong Learner \u2013 Continuously seeks new knowledge and skills to grow personally and professionally.</span>\",\"col\":12}},{\"id\":\"-BhpT9_NBF\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Lifelong Learner\",\"col\":12}}]",
  "creation": "2025-10-26 14:12:04.036364",
- "custom_blocks": [],
+ "custom_blocks": [
+  {
+   "custom_block_name": "Lifelong Learner",
+   "label": "Lifelong Learner"
+  }
+ ],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
@@ -13,7 +18,7 @@
  "is_hidden": 0,
  "label": "Lifelong Learner",
  "links": [],
- "modified": "2025-10-26 14:50:17.985422",
+ "modified": "2025-10-28 06:28:32.866116",
  "modified_by": "Administrator",
  "module": "APC Gamsys",
  "name": "Lifelong Learner",
@@ -23,7 +28,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 25.0,
+ "sequence_id": 14.0,
  "shortcuts": [],
  "title": "Lifelong Learner"
 }

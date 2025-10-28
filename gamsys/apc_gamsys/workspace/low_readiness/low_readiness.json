@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"FsR3zr0wlL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Low Readiness</span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"FsR3zr0wlL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Low Readiness</span>\",\"col\":12}},{\"id\":\"pPF-pCxPVp\",\"type\":\"paragraph\",\"data\":{\"text\":\"This designation, <b>Low Readiness</b>, is specifically assigned to the cohort of students whose documented performance across the relevant assessment tasks yields a score within the lower spectrum of the evaluation matrix. More precisely, this tier encompasses all individuals who have registered an empirical score of <b>1 (Novice)</b>, <b>2 (Basic)</b>, or <b>3 (Proficient) on a specific attribute</b>.\",\"col\":12}},{\"id\":\"X3VYwyHUmq\",\"type\":\"paragraph\",\"data\":{\"text\":\"A low readiness score\u2014typically ranging from <b>1 (Novice)</b> to <b>3 (Proficient)</b>\u2014reflects a developing stage of competency in a given graduate attribute. At this level, students may demonstrate limited mastery of fundamental concepts and skills, often requiring additional guidance and structured support to meet performance expectations. A score of <b>1 (Novice)</b> generally indicates considerable difficulty in applying core principles or demonstrating independent initiative within the context of the attribute. A score of <b>2 (Basic)</b> suggests partial understanding or emerging ability, but with noticeable gaps in consistency, confidence, or depth of application. A score of <b>3 (Proficient)</b> represents functional competence\u2014students can perform essential tasks and show potential\u2014but may not yet exhibit the level of integration, innovation, or leadership expected at higher readiness levels. Overall, low readiness highlights the need for targeted improvement strategies, mentorship, and experiential learning opportunities to build stronger alignment with the desired outcomes of each graduate attribute.\",\"col\":12}},{\"id\":\"N0xGIf47Tt\",\"type\":\"paragraph\",\"data\":{\"text\":\"Therefore, the collective grouping within the <b>Low Readiness</b> tier highlights students who are currently navigating the stages of skill acquisition, moving from initial conceptual understanding toward the robust, nuanced, and self-directed communication mastery exemplified by the <b>Master</b> and <b>Expert</b> levels. These students may benefit from targeted pedagogical scaffolding designed to solidify their expressive clarity and active engagement in both written and verbal formats.\",\"col\":12}},{\"id\":\"4xLoSapzKy\",\"type\":\"paragraph\",\"data\":{\"text\":\"Click on a Graduate Attribute on the side bar to start monitoring the performance per graduate attribute!\",\"col\":12}}]",
  "creation": "2025-10-26 00:35:59.639852",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,8 +13,8 @@
  "is_hidden": 0,
  "label": "Low Readiness",
  "links": [],
- "modified": "2025-10-26 14:08:01.139598",
- "modified_by": "Administrator",
+ "modified": "2025-10-28 10:32:59.972120",
+ "modified_by": "manerez@student.apc.edu.ph",
  "module": "APC Gamsys",
  "name": "Low Readiness",
  "number_cards": [],
